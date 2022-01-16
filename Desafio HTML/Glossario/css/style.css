@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: arial;
+}
+
+main {
+  margin: 0 20em;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(106, 141, 181);
+  color: white;
+  text-align: center;
+  padding: 3em 2em;
+  margin-bottom: 5em;
+}
+
+header h1 {
+  display: block;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 1em;
+  font-family: Kumbh Sans, serif;
+}
+
+.content{
+  border: solid 0.5em rgb(106, 141, 181);
+  margin: 2em;
+  padding: 4em;
+  position: relative;
+}
+
+.content h3{
+  text-align: center;
+  display: block;
+  margin: 3.5em 0;
+}
+
+.content p{
+  margin-bottom: 3.5em;
+  display: block;
+}
+
+footer{
+  height: 6.25em;
+  background-color: rgb(106, 141, 181);
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em 0;
+}
+
+
+
