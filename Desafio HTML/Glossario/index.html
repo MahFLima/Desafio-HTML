@@ -9,6 +9,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
   <link rel="stylesheet" href="./css/avisos.css">
   <title>Document</title>
 </head>
@@ -19,37 +20,45 @@
       <h1>GLOSSÁRIO</h1>
       <h3>COMO DEVE SER?</h3>
     </header>
-    <div id="wrap_superior">
-      <h2>Superior e <br> esquerda</h2>
-    </div>
+    <h2 class="superior">Superior e <br>Esquerda</h2>
     <div class="content">
-      <div id="wrap_up-left">
-        <h2>3 cm</h2>
-        <img id="left" src="assets/arrow_left.svg"/>
-        <img id="up" src="assets/arrow_up.svg"/>
-      </div>
-      <h3><b>Glossário</b></h3>
-      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s</p>
-      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s</p>
-      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s</p>
-      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s</p>
-      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s</p>
-      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-        industry's standard dummy text ever since the 1500s</p>
-        <div id="wrap_left-right">
-          <h2>2 cm</h2>
-          <img id="right" src="assets/arrow_right.svg"/>
-          <img id="down" src="assets/arrow_down.svg"/>
+      <div class="glossario-superior">
+        <div class="up-left">
+          <img id="up" class="arrow-img" src="assets/arrow_up.svg" alt="">
+          <h1>3cm</h1>
+          <img id="left" class="arrow-img" src="assets/arrow_left.svg" alt="">
         </div>
+        <div class="glossario-central">
+          <h3>Título <br>(centralização,<br> fonte 12 e com negrito)</h3>
+          <img src="assets/arrow_up.svg" class="arrow-img" alt="">
+        </div>
+        <div></div>
+      </div>
+      <h3 class="content-glossario"><b>Glossário</b></h3>
+      <div class="glossario_margin">
+        <img class="arrow-img"  src="assets/arrow_right.svg"/>
+        <h3>espaço de uma linha(1,5)</h3>
+      </div>
+      <div></div>
+      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s</p>
+      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s</p>
+      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s</p>
+      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s</p>
+      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s</p>
+      <p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+        industry's standard dummy text ever since the 1500s</p>
+      <div class="right-down">
+        <h1>2cm</h1>
+        <img id="right" class="arrow-img" src="assets/arrow_right.svg"/>
+        <img id="down" class="arrow-img" src="assets/arrow_down.svg"/>
+      </div>
     </div>
-    <div id="wrap_inferior">
-      <h2>Inferior e <br> direita</h2>
-    </div>
+    <h2 class="inferior">Inferior e <br>Direita</h2>
     <footer></footer>
     <image class="logo" src="./assets/LOGO.png" alt="Imagem Logo" />
   </main>

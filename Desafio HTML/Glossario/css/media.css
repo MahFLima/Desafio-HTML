@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+  main {
+    margin: 0;
+  }
+
+  header {
+    width: 100vw;
+  }
+
+  .content {
+    padding: 10px;
+    margin: 0;
+  }
+
+  .glossario_margin {
+    width: 80%;
+  }
+
+  .arrow-img {
+    visibility: hidden;
+  }
+
+  .up-left h1 {
+    top: 0 !important;
+    left: 0 !important;
+  }
+
+  .superior{
+    padding: 10px;
+    display: block;
+  }
+}
