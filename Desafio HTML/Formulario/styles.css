@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 1em;
+  max-width: 500px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset{
+  padding: 10px;
+}
+
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  width: 200px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input{
+  margin-left: 10px;
+  width: 200px;
+}
+
+
+button{
+  padding: 2px;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 50px;
+}
+
+.check-email{
+  display: flex;
+  margin: 10px;
+}
+
+.check-email input{
+  margin: 0 5px;
+  width: 20px; 
+}
+
+.check-email label{
+  margin: 0;
+  text-align: center;
+}

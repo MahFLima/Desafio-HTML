@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <form action="">
+    <fieldset>
+      <legend>Entre em contato</legend>
+
+      <div class="content">
+        <label for="assunto"><b>Assunto:</b> </label>
+        <input list="assuntos" name="assunto" id="assunto">
+        <datalist id="assuntos">
+          <option value="Edge">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+
+        <label for="nome"> <b>Nome Completo:</b> </label>
+        <input type="text" id="nome" />
+
+        <label for="email"><b>E-mail:</b> </label>
+        <input type="email" id="email" />
+
+        <label for="mensagem"><b>Mensagem:</b> </label>
+        <textarea id="mensagem" name="mensagem"></textarea>
+
+        <div class="check-email">
+          <input id="check-email" type="checkbox" />
+          <label for="check-email">Aceito receber novidades por e-mail</label>
+        </div>
+        
+          <button type="submit" id="btn">Enviar</button>
+        </div>
+
+    </fieldset>
+
+    <script src="script.js"></script>
+  </form>
+</body>
+
+</html>
