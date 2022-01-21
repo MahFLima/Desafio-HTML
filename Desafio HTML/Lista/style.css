@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 90%;
+  max-width: 500px;
+  margin: 10px;
+}
+
+.linha{
+  border-top: 2px solid lightgray;
+  margin: 1em 0;
+}
+
+li{
+  margin-bottom: 10px;
+}
