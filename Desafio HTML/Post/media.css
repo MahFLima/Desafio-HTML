@@ -1,0 +1,25 @@
+@media(max-width: 768px){
+    main{
+       padding: 1em; 
+    }
+
+    .conteudo_principal{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-principal{
+        gap: 0.5em;
+    }
+
+    .autor-principal{
+        margin-top: 1em;
+    }
+
+    /*--------------------------------------------*/
+
+    .content-principal{
+        display: flex;
+    }
+
+}

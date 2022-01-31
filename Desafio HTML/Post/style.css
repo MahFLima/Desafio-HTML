@@ -5,26 +5,11 @@
   font-family: Roboto, sans-serif;
 }
 
+
 header{
-  width: 100vw;
-  display: flex;
-  padding: 3rem 2rem;
-  align-items: center;
-  justify-content: space-between;
+  margin-bottom: 1em;
 }
 
-nav{
-  display: flex;
-  gap: 0.8em;
-  align-items: center;
-}
-
-ul{
-  display: flex;
-  list-style: none;
-  gap: 0.8rem;
-  align-items: center;
-}
 
 button{
   padding: 0.5em 1em;
@@ -38,7 +23,6 @@ button{
 }
 
 main{
-  width: 100vw;
   padding: 0 6rem;
 }
 
@@ -55,6 +39,7 @@ main{
 .image-principal{
   width: 95%;
   height: 30em;
+  max-height: 100%;
   border-radius: 0.5em;
   grid-area: imagem;
   object-fit: cover;

@@ -4,26 +4,39 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
   <title>Blog Post</title>
 </head>
 
 <body>
   <header>
-    <a>Blog Post</a>
     <nav>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Services</li>
-        <li>Testimonials</li>
-        <li>Contact</li>
-      </ul>
-      <button>React now</button>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Logo</a>
+        <a href="#" data-activates="menu-mobile" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="side-nav" id="menu-mobile">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </nav>
   </header>
   <main>
@@ -45,7 +58,7 @@
           <img src="https://source.unsplash.com/random" alt="">
           <div class="autor-nome">
             <p>Bruno Lima</p>
-            <span>Lead Product</span>
+            <span>Main Producer</span>
           </div>
         </div>
       </div>
@@ -61,8 +74,8 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum hendrerit est, vitae tristique mi
           mattis et. Aenean semper sagittis sollicitudin. Donec sit amet commodo enim. Donec dictum magna urna, eget
           sollicitudin ipsum tristique sit amet. Sed egestas metus a lacus congue, non gravida est vehicula.
-          Pellentesque ultrices varius tortor, eu elementum metus luctus a.</p>
-        </article>
+          Pellentesque ultrices varius tortor, eu elementum metus luctus.</p>
+      </article>
       <article class="post2 post">
         <img src="https://source.unsplash.com/random" alt="" class="post-image">
         <div class="data-principal">
@@ -73,10 +86,20 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce interdum hendrerit est, vitae tristique mi
           mattis et. Aenean semper sagittis sollicitudin. Donec sit amet commodo enim. Donec dictum magna urna, eget
           sollicitudin ipsum tristique sit amet. Sed egestas metus a lacus congue, non gravida est vehicula.
-          Pellentesque ultrices varius tortor, eu elementum metus luctus a.</p>
-        </article>
+          Pellentesque ultrices varius tortor, eu elementum metus luctus.</p>
+      </article>
     </section>
   </main>
+
+
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+
+  <script>
+    $(function () {
+      $(".button-collapse").sideNav();
+    });
+  </script>
 </body>
 
 </html>
