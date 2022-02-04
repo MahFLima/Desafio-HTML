@@ -1,0 +1,142 @@
+[
+    {
+        "id": "101",
+        "pergunta":"Harry Potter",
+        "r1": {
+            "resposta": "Sonserina",
+            "isTrue": false
+        },
+        "r2": {
+            "resposta": "Lufa-lufa",
+            "isTrue": false
+        },
+        "r3": {
+            "resposta": "Corvinal",
+            "isTrue": false
+        },
+        "r4": {
+            "resposta": "Grifinória",
+            "isTrue": true
+        }
+    },
+    {
+        "id": "102",
+        "pergunta":"Horacio Slughorn",
+        "r1": {
+            "resposta": "Sonserina",
+            "isTrue": true
+        },
+        "r2": {
+            "resposta": "Lufa-lufa",
+            "isTrue": false
+        },
+        "r3": {
+            "resposta": "Corvinal",
+            "isTrue": false
+        },
+        "r4": {
+            "resposta": "Grifinória",
+            "isTrue": false
+        }
+    },
+    {
+        "id": "103",
+        "pergunta":"Alvo Severo Potter",
+        "r1": {
+            "resposta": "Sonserina",
+            "isTrue": true
+        },
+        "r2": {
+            "resposta": "Lufa-lufa",
+            "isTrue": false
+        },
+        "r3": {
+            "resposta": "Corvinal",
+            "isTrue": false
+        },
+        "r4": {
+            "resposta": "Grifinória",
+            "isTrue": false
+        }
+    },
+    {
+        "id": "104",
+        "pergunta":"Ninfadora Tonks",
+        "r1": {
+            "resposta": "Sonserina",
+            "isTrue": false
+        },
+        "r2": {
+            "resposta": "Lufa-lufa",
+            "isTrue": true
+        },
+        "r3": {
+            "resposta": "Corvinal",
+            "isTrue": false
+        },
+        "r4": {
+            "resposta": "Grifinória",
+            "isTrue": false
+        }
+    },
+    {
+        "id": "105",
+        "pergunta":"Sibila Trelawney",
+        "r1": {
+            "resposta": "Sonserina",
+            "isTrue": false
+        },
+        "r2": {
+            "resposta": "Lufa-lufa",
+            "isTrue": false
+        },
+        "r3": {
+            "resposta": "Corvinal",
+            "isTrue": true
+        },
+        "r4": {
+            "resposta": "Grifinória",
+            "isTrue": false
+        }
+    },
+    {
+        "id": "106",
+        "pergunta":"Murta-que-geme",
+        "r1": {
+            "resposta": "Sonserina",
+            "isTrue": false
+        },
+        "r2": {
+            "resposta": "Lufa-lufa",
+            "isTrue": false
+        },
+        "r3": {
+            "resposta": "Corvinal",
+            "isTrue": true
+        },
+        "r4": {
+            "resposta": "Grifinória",
+            "isTrue": false
+        }
+    },
+    {
+        "id": "107",
+        "pergunta":"Silvano Kettleburn(ex diretor de hogwarts)",
+        "r1": {
+            "resposta": "Sonserina",
+            "isTrue": false
+        },
+        "r2": {
+            "resposta": "Lufa-lufa",
+            "isTrue": true
+        },
+        "r3": {
+            "resposta": "Corvinal",
+            "isTrue": false
+        },
+        "r4": {
+            "resposta": "Grifinória",
+            "isTrue": false
+        }
+    }
+]
