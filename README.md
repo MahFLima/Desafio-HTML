@@ -1,4 +1,5 @@
 # Desafio-HTML
+<p align="end"> Desafio Discover <a href="https://rocketseat.com.br">Rocketseat</a></p>
 
 ### 👨‍💻 Sobre o desafio
 
